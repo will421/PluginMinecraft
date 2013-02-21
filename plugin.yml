@@ -1,0 +1,17 @@
+name: PluginWill
+main: com.gmail.willou421.PluginWill.PluginWill
+version: 0.1
+
+commands:
+   inventaire:
+      description: Affiche la contenu de l'inventaire du joueur cible
+      usage: usage /inventaire [player]
+      permission-message: You don't have right on inventaire
+   firework:
+      description: Genere des feux d'artifice(pas encore)
+      usage: usage encore inconnue
+      permission-message: You don't have right on firework
+   multexp:
+      description: Multiplie l'xp recu par les monstres
+      usage: usage /multexp [int]
+      permission-message: You don't have right on multexp
