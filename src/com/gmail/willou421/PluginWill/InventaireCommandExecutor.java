@@ -27,7 +27,7 @@ public class InventaireCommandExecutor implements CommandExecutor {
 				if (cible==null) {
 					sender.sendMessage("Ce joueur est inconnu");
 				} else {
-					
+					sender.sendMessage("Inventaire de : "+cible.getDisplayName());
 					PlayerInventory pi = cible.getInventory();
 					sender.sendMessage(contenuInventaireToString(pi));
 			
